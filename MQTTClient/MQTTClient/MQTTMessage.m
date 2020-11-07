@@ -558,6 +558,7 @@
                     (type == MQTTPubcomp && qos == 0) ||
                     (type == MQTTSubscribe && qos == 1) ||
                     (type == MQTTSuback && qos == 0) ||
+                    (type == MQTTSuback && qos == 2) ||
                     (type == MQTTUnsubscribe && qos == 1) ||
                     (type == MQTTUnsuback && qos == 0) ||
                     (type == MQTTPingreq && qos == 0) ||
